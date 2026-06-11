@@ -1,5 +1,5 @@
 - name: demo on debug
-    hosts: frontend
-    tasks:
-        - name: hello world
-            debug:
+  hosts: frontend
+  tasks:
+    - name: hello world
+      debug:

@@ -1,0 +1,31 @@
+- name: "Sharat Chandra Kumar"
+  dob: "1989-08-15"
+  mobile: "+91-9876543210"
+  addresses:
+    - address_type: "home"
+      street: "123 Main Street"
+      city: "Bangalore"
+      state: "Karnataka"
+      zip: "560001"
+    - address_type: "office"
+      street: "145 Main Street"
+      city: "Bangalore"
+      state: "Karnataka"
+      zip: "560081"
+
+- name: "Rajesh Kumar"
+  dob: "1990-08-15"
+  mobile: "+91-9876543210"
+  addresses:
+    - address_type: "home"
+      street: "123 Main Street"
+      city: "Bangalore"
+      state: "Karnataka"
+      zip: "560001"
+    - address_type: "office"
+      street: "145 Main Street"
+      city: "Bangalore"
+      state: "Karnataka"
+      zip: "560081"
+
+ 

@@ -14,3 +14,12 @@
         full_name: "Siva from task"
     debug:
         msg: "Hi, {{full_name}}"
+
+# 1. cmd line args are the first priority variables
+# 2. Task level variables are the second priority variables
+# 3. vars_files are the third priority variables
+# 4. Prompt variables are the fourth priority variables
+# 5. Play level variables are the fifth priority variables
+
+# 6. Inventory group vars are the seventh priority variables
+# 8. Inventory host vars are the eighth priority variables

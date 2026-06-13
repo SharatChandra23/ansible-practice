@@ -14,7 +14,8 @@
     more_details: # map
        months: 5
        trainer: "Sivakumar Reddy"
-    tasks:
+       
+  tasks:
     - name: print information
       debug:
         msg: |

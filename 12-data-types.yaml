@@ -12,11 +12,11 @@
        - ansible
 
     more_details: # map
-       months: "5"
-       trainer: "Sivakumar"
+       months: 5
+       trainer: "Sivakumar Reddy"
     tasks:
     - name: print information
-      msg: 
+      msg: |
         name: {{course}}
         duration: {{duration_in_hrs}}
         is_it_live: {{ is_live_sessions }}

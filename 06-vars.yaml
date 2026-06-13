@@ -1,0 +1,9 @@
+- name: demo on var files
+  hosts: local
+  connection: local
+  vars_files: # include var files in playbook
+    - course.yaml
+  tasks:
+  - name: print variables information
+    debug:
+        msg: "Hi, I'm learning {{COURSE}}, Trainer is {{TRAINER}}, Duration is {{DURATION}}"
